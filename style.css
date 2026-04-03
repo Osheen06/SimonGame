@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+.lineOne, .lineTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 20%;
+    border: 8px solid black; 
+    cursor: pointer;
+}
+
+.red { background-color: #ff4d4d; }
+.yellow { background-color: #ffff4d; }
+.green { background-color: #4dff4d; }
+.blue { background-color: #4d4dff; }
+
+.flash {
+    background-color: white;
+}
+.flashWrong {
+    background-color: red;
+}
